@@ -1,0 +1,90 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_Btown</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background: url('logo.jpg') center/cover no-repeat;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.5em;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px #000;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            color: #d32f2f;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li::before {
+            content: "✔️ ";
+        }
+        .contact {
+            background-color: #d32f2f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .contact a {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Assignment_Btown
+    </header>
+
+    <section>
+        <h2>Welcome</h2>
+        <p>Affordable Assignment Help for School & College</p>
+        <p>Get quality essays, projects, and presentations delivered on time.</p>
+    </section>
+
+    <section>
+        <h2>Our Services</h2>
+        <ul>
+            <li>School Assignments – Any subject, any format</li>
+            <li>College Assignments – Plagiarism-free, properly formatted</li>
+            <li>PowerPoint Presentations – Clean, academic slides</li>
+            <li>Custom Requests – We handle special projects too</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>Fast Delivery</li>
+            <li>100% Confidential</li>
+            <li>Student-Friendly Prices</li>
+            <li>No Plagiarism, Ever</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:singhsurk2410@gmail.com">singhsurk2410@gmail.com</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/assignments_btown?igsh=cGtkczBxMWN5ZHEx&utm_source=qr" target="_blank">@assignments_btown</a></p>
+        <p>We reply within 1 hour. Simple, fast, reliable.</p>
+    </section>
+</body>
+</html>
